@@ -14,3 +14,7 @@ class PhysicsObject {
     }
   }
 }
+
+window.onload = function() {
+  Game.objects.add(new PhysicsObject(document.getElementById("box0"),53,[0,0]));
+}
